@@ -6,11 +6,12 @@ body {
 }
 
 img.logotype {
-    object-fit: cover;
+    object-fit: contain;
 }
 
 ul.social-icons {
     display: flex;
+    align-items: center;
 }
 
 .social-icons li {
@@ -206,4 +207,13 @@ input[type="checkbox"] {
 .link-right a {
     color: white;
     text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+div#popup {
+    display: none;
 }
