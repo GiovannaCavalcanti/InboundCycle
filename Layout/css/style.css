@@ -1,0 +1,208 @@
+/* Tela desktop */
+fieldset {
+    text-align: center;
+    border: none;
+    height: 55%;
+}
+
+h1 {
+    color: #ED5901;
+    margin: 26px 0px;
+    font-size: 32px;
+}
+
+li {
+    border-right: 2px white;
+    list-style: none;
+    margin-left: 30px;
+}
+
+h2 {
+    color: #B1B1B1;
+}
+
+button {
+    background-color: #ED5901;
+    border: none;
+    width: 276px;
+    height: 50px;
+    color: white;
+    font-weight: 800;
+}
+
+.popup {
+    display: none;
+}
+
+footer {
+    background-color: #4F4F51;
+    height: 100px;
+    color: white;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    height: 5em;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul.social-icons {
+    display: flex;
+}
+
+img.logotype {
+    object-fit: none;
+}
+
+img.bg-separator {
+    height: 142px;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 35px 77px 60px 77px;
+    width: 89%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    width: 65%;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.text-left {
+    height: 20em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+aside {
+    background-color: #ECECEC;
+    width: 30%;
+    margin: 0px 0px;
+    height: 25em;
+    display: flex;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dados {
+    width: 304px;
+    height: 36px;
+    border: none;
+    margin-bottom: 15px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+.checkbox {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: flex-start;
+    margin: 3px 30px;
+}
+
+.titles {
+    height: 20em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.emphasizes {
+    color: #ED5901;
+    margin: 40px 0px;
+    text-align: center;
+    width: 100%;
+    font-weight: 900;
+}
+
+.img-book {
+    height: 100%;
+    padding: 0px;
+}
+
+a {
+    color: #ED5901;
+}
+
+.container-text {
+    width: 60%;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    top: 0;
+    left: 0;
+}
+
+img.ebook {
+    height: 100%;
+    margin: -62px 0px;
+}
+
+.footer-frame {
+    height: 100%;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+nav {
+    margin: 0px 45px 0px 0px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.link-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+header {
+    width: 1349px;
+}
+
+.link-right a {
+    color: white;
+    text-decoration: none;
+}
+
+.caption {
+    background-color: green;
+    display: flex;
+    font-weight: 900;
+    align-content: center;
+    justify-content: center;
+}
