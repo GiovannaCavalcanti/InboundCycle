@@ -1,4 +1,10 @@
 /* Tela desktop */
+@font-face {
+    font-family: "Web Font";
+    src: url("/fonts/fontawesome-webfont.woff") format("woff"),
+        url("/fonts/fontawesome-webfont.woff2") format("woff2");
+}
+
 fieldset {
     text-align: center;
     border: none;
@@ -153,7 +159,7 @@ a {
 }
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family:'Web Font';
     margin: 0;
     top: 0;
     left: 0;
