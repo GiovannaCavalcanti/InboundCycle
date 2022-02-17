@@ -1,0 +1,184 @@
+/* Tela para todos smartphones */
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+img.logotype {
+    object-fit: cover;
+}
+
+ul.social-icons {
+    display: flex !important;
+}
+
+li {
+    list-style: none !important;
+    color: orange !important;
+    margin-right: 24px;
+}
+
+a {
+    color: #ED5901;
+}
+
+img.bg-separator {
+    height: 140px;
+    width: 100%;
+}
+
+.separator-image {
+    width: 540px;
+}
+
+.wrapper {
+    width: 310px !important;
+}
+
+.text-left {
+    text-align: center;
+}
+
+.titles {
+    height: 50vh;
+    width: 480px;
+}
+
+h1 {
+    margin: 26px 0px;
+    font-size: 34px;
+}
+
+.container-text {
+    display: flex;
+    justify-content: center;
+}
+
+.img-book {
+    height: 73vh;
+}
+
+img.ebook {
+    height: 100%;
+    object-fit: cover;
+}
+
+.body.text {
+    width: 480px;
+    display: flex;
+    margin: 0px 28px;
+}
+
+.emphasizes {
+    width: 320px;
+    height: 60px;
+    margin: 30px 20px;
+    text-align: center;
+    background: #ED5901;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-weight: 900;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    background-color: lightgray;
+    height: 451px;
+    width: 393px;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    height: 580px;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    justify-content: center;
+}
+
+input.dados {
+    width: 95%;
+    height: 50px;
+    border: none;
+    font-size: 20px;
+    margin-bottom: 18px;
+}
+
+button {
+    width: 82%;
+    height: 55px;
+    border: none;
+    border-radius: 30px;
+    margin: 13px 35px;
+}
+
+.checkbox {
+    margin-top: 19px;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+footer {
+    text-align: center;
+    height: 100px;
+    width: 540px;
+    background: black;
+}
+
+.popup {
+    display: none;
+}
+
+label {
+    margin-bottom: 6px;
+}
+
+.footer-frame {
+    display: flex;
+    height: 100px;
+    width: 480px;
+    margin: 0px 20px;
+    flex-direction: row;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+}
+
+.link-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.link-right ul {
+    display: flex;
+    margin: -9px;
+}
+
+.link-right a {
+    color: white;
+    text-decoration: none;
+}
